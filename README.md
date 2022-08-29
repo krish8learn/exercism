@@ -1,2 +1,3 @@
 # exercism
-contains solution of exercism Go challenges
+
+contains solution of exercism challenges
