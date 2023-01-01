@@ -23,10 +23,22 @@
  */
 
 declare(strict_types=1);
-
-function reverseString(string $text): string
+const COLORS = [
+    "black",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "violet",
+    "grey",
+    "white",
+];
+function colorCode(string $color): int
 {
-    // throw new BadFunctionCallException("Please implement the reverseString method!");
-    echo $text;
-   return strrev($text);
+    
+    // throw new \BadFunctionCallException("Implement the colorCode function");
+    return array_search($color, COLORS, true);
 }
+
