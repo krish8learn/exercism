@@ -8,3 +8,6 @@ command to run test cases go:
     go test
 command to run test cases typescript:
     corepack yarn test
+command to run test cases python:
+    python -m unittest <testfilename>.py
+
